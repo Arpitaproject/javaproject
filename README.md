@@ -18,24 +18,24 @@ c. Reporting
     📦 Maven – Build & Dependency Management
     🧠 Eclipse IDE
 
+
     📦 Dependencies
 
     <project xmlns="http://maven.apache.org/POM/4.0.0" ...>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>attendance-system</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <dependencies>
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>42.6.0</version>
-    </dependency>
-  </dependencies>
-  <build>
-    <sourceDirectory>src/main/java</sourceDirectory>
-  </build>
-  </project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.attendance</groupId>
+    <artifactId>attendance-system</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <!-- MySQL Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+    </dependencies>
+</project>
+
 
   🗃️ Database Tables
 
