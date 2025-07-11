@@ -1,6 +1,6 @@
 👨‍🏫👩‍🏫 Attendance Management System – Java Console Project
 
-A Java-based console application that simulates an online bookshop. Users can register, log in, browse books, place orders, and view purchase history. This project is built using Core Java, JDBC, PostgreSQL, and Maven.
+A Java-based console application that simulates an Attendance system. Users can register, log in, browse books, place orders, and view purchase history. This project is built using Core Java, JDBC, PostgreSQL, and Maven.
 
 ✨ Features
 
